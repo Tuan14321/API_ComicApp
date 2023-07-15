@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 var comicSchema = new mongoose.Schema({
-    comicId: {
+    ComicId: {
         type: String,
         required: true,
     },

@@ -11,10 +11,6 @@ var chapterSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    PostedDate: {
-        type: String,
-        required: true,
-    },
     ComicId: {
         // type: ObjectId, ref: "Comic"
         type: String,
