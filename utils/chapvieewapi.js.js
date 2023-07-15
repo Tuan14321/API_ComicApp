@@ -32,15 +32,7 @@
         "ChapterId": 21
     },
     {
-        "Image": "https://i7.bumcheo.info/629/629072/012-fix-23.jpg",
-        "ChapterId": 21
-    },
-    {
         "Image": "https://i7.bumcheo.info/629/629072/014-fix-23.jpg",
-        "ChapterId": 21
-    },
-    {
-        "Image": "https://i7.bumcheo.info/629/629072/015-fix-23.jpg",
         "ChapterId": 21
     },
     {

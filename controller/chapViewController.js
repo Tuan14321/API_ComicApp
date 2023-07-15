@@ -12,8 +12,14 @@ const createChapView = asyncHandler(async (req, res) => {
 });
 
 const getAllChapViews = asyncHandler(async (req, res) => {
+    const { ChapterId } = req.query;
     try {
-        const ChapViews = await ChapView.find();
+        let ChapViews;
+        if (ChapterId !== undefined) {
+            ChapViews = await ChapView.find({ ChapterId: ChapterId });
+        } else {
+            ChapViews = await ChapView.find();
+        }
         res.json(ChapViews);
     } catch (error) {
         throw new Error(error.message);
