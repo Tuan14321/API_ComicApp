@@ -3,6 +3,10 @@ const { ObjectId } = require('mongodb');
 
 
 var chapterSchema = new mongoose.Schema({
+    ChapterId: {
+        type: String,
+        required: true,
+    },
     ChapterName: {
         type: String,
         required: true,
